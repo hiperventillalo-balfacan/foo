@@ -1,4 +1,4 @@
-name: Label issues
+name: Needs work
 on:
   pull_request:
     types:
