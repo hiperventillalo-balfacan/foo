@@ -1,6 +1,6 @@
 name: Backend Feature
 description: Új feature feladat létrehozása
-title: "feat:"
+title: ":rocker: feat:"
 labels: ["feature"]
 body:
   - type: textarea
