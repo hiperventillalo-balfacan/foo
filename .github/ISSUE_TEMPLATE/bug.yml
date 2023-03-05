@@ -1,7 +1,7 @@
 name: "\U0001F41E Bug report"
-description: Új feature feladat létrehozása
+description: Hiba kezelési jegy
 title: "feat:"
-labels: ["feature"]
+labels: ["bug"]
 body:
   - type: textarea
     id: specication
