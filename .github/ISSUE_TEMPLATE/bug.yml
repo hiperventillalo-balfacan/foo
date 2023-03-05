@@ -1,6 +1,5 @@
 name: "\U0001F41E Bug"
 description: Hiba kezelési jegy
-title: "feat:"
 labels: ["bug"]
 body:
   - type: textarea
