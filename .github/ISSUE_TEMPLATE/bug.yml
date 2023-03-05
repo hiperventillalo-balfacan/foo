@@ -1,0 +1,19 @@
+name: "\U0001F41E Bug report"
+description: Új feature feladat létrehozása
+title: "feat:"
+labels: ["feature"]
+body:
+  - type: textarea
+    id: specication
+    attributes:
+      label: Specifikáció
+      description: Mi a hiba?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Asana, Sentry, Slack url
+    validations:
+      required: false  
