@@ -1,5 +1,5 @@
 name: Backend Feature
-description: Új feature feladat létrehpzása
+description: Új feature feladat létrehozása
 title: "feat:"
 labels: ["backend", "feature"]
 body:
