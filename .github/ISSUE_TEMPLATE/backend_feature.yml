@@ -1,6 +1,6 @@
 name: Backend Feature
 description: Új feature feladat létrehpzása
-title: " "
+title: "feat:"
 labels: ["backend", "feature"]
 body:
   - type: textarea
