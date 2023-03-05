@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: business_values
     attributes:
-      label: Minek kell teljesülnie a feladat elkezdéséhez
+      label: Milyen üzleti értéket képvisel
       description: Mi az az üzleti érték aminek meg kell valósulnia ahhoz, hogy a taskot késznek lehessen minősíteni. Kijelentések amik alapján tesztelhető a fejlesztés.
     validations:
       required: false
