@@ -28,7 +28,7 @@ body:
     id: Üzleti elvárások
     attributes:
       label: Minek kell teljesülnie a feladat elkezdéséhez
-      description:Mi az az üzleti érték aminek meg kell valósulnia ahhoz, hogy a taskot késznek lehessen minősíteni. Kijelentések amik alapján tesztelhető a fejlesztés.
+      description: Mi az az üzleti érték aminek meg kell valósulnia ahhoz, hogy a taskot késznek lehessen minősíteni. Kijelentések amik alapján tesztelhető a fejlesztés.
     validations:
       required: false
   
