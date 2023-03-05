@@ -1,6 +1,6 @@
 name: Backend Feature
 description: Új feature feladat létrehozása
-title: ":new: triage needed, :bug: bug"
+title: "feat:"
 labels: ["feature"]
 body:
   - type: textarea
