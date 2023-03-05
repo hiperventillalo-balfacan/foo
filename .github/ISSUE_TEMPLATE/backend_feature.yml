@@ -18,9 +18,9 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Előfeltételek
+    id: preconditions
     attributes:
-      label: Minek kell teljesülnie a feladat elkezdéséhez
+      label: Előfeltételek
       description: Bármilyen lépés aminek teljesülnie kell mielőtt el lehet kezdeni a megvalósítást.
     validations:
       required: false
