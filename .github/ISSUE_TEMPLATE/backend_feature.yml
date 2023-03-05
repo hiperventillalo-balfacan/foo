@@ -6,19 +6,19 @@ body:
   - type: textarea
     id: specication
     attributes:
-      label: Mit kell csinálni
+      label: Specifikáció
       description: Technikai feladatok listája. Új tábla, CRUD endpoint új cron, service stb… ami X,Y feladatot kell, hogy ellásson.
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Háttér információ
+      label: Kontextus
       description: Rövid bevezetés az előzményről, mi az alapállapot. Nem kötelező, de jövőben segíti a hiba keresést ha több információ van a feladat hátteréről.
     validations:
       required: false
   - type: textarea
-    id: preconditions
+    id: Előfeltételek
     attributes:
       label: Minek kell teljesülnie a feladat elkezdéséhez
       description: Bármilyen lépés aminek teljesülnie kell mielőtt el lehet kezdeni a megvalósítást.
@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: business_values
     attributes:
-      label: Milyen üzleti értéket képvisel
+      label: Üzleti elvárások
       description: Mi az az üzleti érték aminek meg kell valósulnia ahhoz, hogy a taskot késznek lehessen minősíteni. Kijelentések amik alapján tesztelhető a fejlesztés.
     validations:
       required: false
