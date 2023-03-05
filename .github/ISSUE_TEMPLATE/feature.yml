@@ -1,6 +1,6 @@
 name: Backend Feature
 description: Új feature feladat létrehozása
-title: ":rocket: feat:"
+title: ":new: triage needed, :bug: bug"
 labels: ["feature"]
 body:
   - type: textarea
