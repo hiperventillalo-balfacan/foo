@@ -4,28 +4,28 @@ title: "[Bug]: "
 labels: ["backend", "feature"]
 body:
   - type: textarea
-    id: Specifikáció
+    id: specication
     attributes:
       label: Mit kell csinálni
       description: Technikai feladatok listája. Új tábla, CRUD endpoint új cron, service stb… ami X,Y feladatot kell, hogy ellásson.
     validations:
       required: true
   - type: textarea
-    id: Kontextus
+    id: context
     attributes:
       label: Háttér információ
       description: Rövid bevezetés az előzményről, mi az alapállapot. Nem kötelező, de jövőben segíti a hiba keresést ha több információ van a feladat hátteréről.
     validations:
       required: false
   - type: textarea
-    id: Előfeltételek
+    id: preconditions
     attributes:
       label: Minek kell teljesülnie a feladat elkezdéséhez
       description: Bármilyen lépés aminek teljesülnie kell mielőtt el lehet kezdeni a megvalósítást.
     validations:
       required: false
   - type: textarea
-    id: Üzleti elvárások
+    id: business_values
     attributes:
       label: Minek kell teljesülnie a feladat elkezdéséhez
       description: Mi az az üzleti érték aminek meg kell valósulnia ahhoz, hogy a taskot késznek lehessen minősíteni. Kijelentések amik alapján tesztelhető a fejlesztés.
