@@ -3,50 +3,32 @@ description: Új feature feladat létrehpzása
 title: "[Bug]: "
 labels: ["backend", "feature"]
 body:
-  - type: markdown
+  - type: textarea
+    id: Specifikáció
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+      label: Mit kell csinálni
+      description: Technikai feladatok listája. Új tábla, CRUD endpoint új cron, service stb… ami X,Y feladatot kell, hogy ellásson.
+    validations:
+      required: true
+  - type: textarea
+    id: Kontextus
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Háttér információ
+      description: Rövid bevezetés az előzményről, mi az alapállapot. Nem kötelező, de jövőben segíti a hiba keresést ha több információ van a feladat hátteréről.
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: Előfeltételek
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Minek kell teljesülnie a feladat elkezdéséhez
+      description: Bármilyen lépés aminek teljesülnie kell mielőtt el lehet kezdeni a megvalósítást.
     validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      required: false
   - type: textarea
-    id: logs
+    id: Üzleti elvárások
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Minek kell teljesülnie a feladat elkezdéséhez
+      description:Mi az az üzleti érték aminek meg kell valósulnia ahhoz, hogy a taskot késznek lehessen minősíteni. Kijelentések amik alapján tesztelhető a fejlesztés.
+    validations:
+      required: false
+  
