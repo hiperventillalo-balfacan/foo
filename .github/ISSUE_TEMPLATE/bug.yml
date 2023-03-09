@@ -6,7 +6,14 @@ body:
     id: specication
     attributes:
       label: Specifikáció
-      description: Mi a hiba? Mi az elvárt működés?
+      description: Mi a hiba?
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Elvárt működés
+      description: Hogyan lenne jó?
     validations:
       required: true
   - type: textarea
