@@ -5,10 +5,17 @@ body:
   - type: textarea
     id: specication
     attributes:
-      label: Specifikáció *
-      description: Mi a hiba?
+      label: Specifikáció
+      description: Mi a hiba? Mi az elvárt működés?
     validations:
       required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reprodukció menete
+      description: Hogyan tudom előidézni? Milyen ismert feltételei vannak?
+    validations:
+      required: false
   - type: input
     id: link
     attributes:
