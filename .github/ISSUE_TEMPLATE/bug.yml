@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: reproduction
     attributes:
-      label: Reprodukció menete
+      label: Előidézés
       description: Hogyan tudom előidézni? Milyen ismert feltételei vannak?
     validations:
       required: false
