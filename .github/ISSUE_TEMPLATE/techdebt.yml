@@ -1,0 +1,18 @@
+name: "🚀 Feature"
+description: Techdebt
+labels: ["techdebt"]
+body:
+  - type: textarea
+    id: specication
+    attributes:
+      label: Specifikáció
+      description: Technikai feladatok listája. Új tábla, CRUD endpoint új cron, service stb… ami X,Y feladatot kell, hogy ellásson.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: Elvárt eredmény
+      description: Miben fogja segíteni a jövőbeli munkánkat? kevesebb kattintás, gyorsabb futás, kevesebb fájl
+    validations:
+      required: true
